@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zefengsysu.customview.MainActivity">
+
+    <com.zefengsysu.lib.ripplecirclebutton.RippleCircleButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         />
+
+    <com.zefengsysu.lib.ripplecirclebutton.RippleCircleButton
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="18dp"
+        app:text="呵呵"
+        app:textSize="16sp"
+        app:textColor="@android:color/white"
+        />
+
+    <com.zefengsysu.lib.ripplecirclebutton.RippleCircleButton
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="18dp"
+        app:src="@drawable/help"
+        app:scaleType="fit"
+        />
+
+    <com.zefengsysu.lib.ripplecirclebutton.RippleCircleButton
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn3"
+        android:layout_marginTop="18dp"
+        app:text="呵呵"
+        app:textSize="16sp"
+        app:textColor="@android:color/white"
+        app:src="@drawable/help"
+        />
+
+    <com.zefengsysu.lib.ripplecirclebutton.RippleCircleButton
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn4"
+        android:layout_marginTop="18dp"
+        app:radius="32dp"
+        app:backgroundColor="@color/colorAccent"
+        app:src="@drawable/help"
+        />
+</RelativeLayout>
